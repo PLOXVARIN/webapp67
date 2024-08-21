@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    
+
+}
+footer{
+    background-color: black;
+    height: 150px;  
+    
+}
+h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+}
+.cover1{
+    background-image: url(img/ปก.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.logo{
+    width: auto;
+    height: 30px;
+    background-size: cover;
+}
+.bar1{
+    background-color:rgb(75, 208, 244);
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    gap:5px   
+}
+.text-bar1{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+}
+.bar2{
+    box-shadow: 0 0 0 1px rgb(197, 196, 196);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap : 5px;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    padding: 5px; 
+}
+.text-bar2{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight:400;
+}
+.text-footter{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight:400;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.submit{
+    background-color: rgb(82, 212, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px ;
+    margin: 10px;  
+    font-size: 14px;
+    cursor: pointer;
+}
+.singin{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px ;
+    margin: 10px;  
+    font-size: 14px;
+    cursor: pointer;
+}
+.box-singin{
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(200, 226, 255);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+    
+}
+.text_signin{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.inputbox{
+    width: 80%;
+    padding: 10px;
+    border: 1px groove #ccc;
+}
+
+.boxtype{
+    align-items: center;
+    border:none;
+    background-color: rgb(228, 252, 255);
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 100px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 200px;
+}
+.type{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
