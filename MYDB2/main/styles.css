@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image/bg1.jpg'); /* เพิ่มรูปภาพเป็นพื้นหลัง */
+    background-size: cover; /* ทำให้รูปเต็มพื้นที่ */
+    background-position: center; /* จัดกลางภาพ */
+    background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px; /* กำหนดความกว้างสูงสุดของคอนเทนเนอร์ */
+    margin: auto;
+    background-color: #fff; /* พื้นหลังของคอนเทนเนอร์เป็นสีขาว */
+    border-radius: 8px; /* มุมมน */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เงาให้กับคอนเทนเนอร์ */
+    padding: 20px; /* ช่องว่างภายใน */
+}
+
+h1 {
+    text-align: center; /* จัดกลางหัวเรื่อง */
+    color: #333; /* สีตัวอักษรของหัวเรื่อง */
+}
+.h1_main {
+    text-align: center; /* จัดกลางหัวเรื่อง */
+    color: #ffffff; /* เปลี่ยนสีตัวอักษรเป็นขาว */
+    background-color: rgba(0, 0, 0, 0.6); /* เพิ่มพื้นหลังสีดำบาง ๆ เพื่อให้เด่นขึ้น */
+    padding: 20px; /* เพิ่มช่องว่างภายใน */
+    border-radius: 10px; /* มุมมน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้กับหัวเรื่อง */
+    font-size: 2.5em; /* ขยายขนาดตัวอักษร */
+    margin: 20px 0; /* เพิ่มระยะห่างด้านบนและล่าง */
+    text-transform: uppercase; /* ทำให้ตัวอักษรเป็นตัวพิมพ์ใหญ่ทั้งหมด */
+}
+
+table {
+    width: 100%; /* ให้ตารางเต็มความกว้าง */
+    border-collapse: collapse; /* รวมเส้นขอบตาราง */
+    margin-top: 20px; /* ช่องว่างด้านบน */
+}
+
+th, td {
+    padding: 12px; /* ช่องว่างภายในเซลล์ */
+    text-align: left; /* จัดเรียงตัวอักษรทางซ้าย */
+    border-bottom: 1px solid #ddd; /* เส้นขอบด้านล่าง */
+}
+
+th {
+    background-color: #f2f2f2; /* พื้นหลังของส่วนหัวตารางเป็นสีเทาอ่อน */
+    color: #555; /* สีตัวอักษรของส่วนหัวตาราง */
+}
+
+tr:hover {
+    background-color: #f9f9f9; /* สีพื้นหลังเมื่อชี้เมาส์ไปที่แถว */
+}
+
+a {
+    color: #007BFF; /* สีของลิงก์ */
+    text-decoration: none; /* ไม่ให้ลิงก์มีขีดเส้นใต้ */
+}
+
+a:hover {
+    text-decoration: underline; /* ให้ลิงก์มีขีดเส้นใต้เมื่อชี้เมาส์ */
+}
+form {
+    display: flex;
+    flex-direction: column; /* ให้ฟอร์มจัดเรียงในแนวตั้ง */
+}
+
+label {
+    margin-top: 10px; /* ช่องว่างด้านบน */
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px; /* ช่องว่างภายใน */
+    border: 1px solid #ccc; /* เส้นขอบ */
+    border-radius: 4px; /* มุมมน */
+    margin-top: 5px; /* ช่องว่างด้านบน */
+}
+
+button {
+    margin-top: 20px; /* ช่องว่างด้านบน */
+    padding: 10px; /* ช่องว่างภายใน */
+    background-color: #007BFF; /* สีพื้นหลังของปุ่ม */
+    color: white; /* สีตัวอักษร */
+    border: none; /* ไม่มีเส้นขอบ */
+    border-radius: 4px; /* มุมมน */
+    cursor: pointer; /* เปลี่ยนรูปแบบเมาส์ */
+    transition: background-color 0.3s; /* การเปลี่ยนสีพื้นหลังเมื่อเอาเมาส์ไปวาง */
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+.submit {
+    margin-top: 20px; /* ช่องว่างด้านบน */
+    padding: 10px; /* ช่องว่างภายใน */
+    background-color: #007BFF; /* สีพื้นหลังของปุ่ม */
+    color: white; /* สีตัวอักษร */
+    border: none; /* ไม่มีเส้นขอบ */
+    border-radius: 4px; /* มุมมน */
+    cursor: pointer; /* เปลี่ยนรูปแบบเมาส์ */
+}
+
+.submit:hover {
+    background-color: #0056b3; /* สีพื้นหลังเมื่อชี้เมาส์ */
+}
+header {
+    max-width: 900px; /* กำหนดความกว้างสูงสุดเท่ากับความกว้างของคอนเทนเนอร์ */
+    margin: auto; /* จัดให้เนื้อหากลาง */
+    background-color: #4a4a4a; /* สีพื้นหลังของ header */
+    color: white; /* สีตัวอักษรใน header */
+    padding: 10px; /* การเว้นระยะภายใน */
+    text-align: center; /* จัดกลางเนื้อหา */
+    border-radius: 8px 8px 0 0;
+}
+nav {
+    margin: 10px 0; /* เว้นระยะบนและล่าง */
+}
+
+nav ul {
+    list-style-type: none; /* เอาสัญลักษณ์ออกจากรายการ */
+    padding: 0; /* ลบการเติมในลิสต์ */
+    display: flex; /* ใช้ flexbox เพื่อจัดเรียง */
+    justify-content: center; /* จัดให้เนื้อหากลาง */
+    background-color: rgba(74, 74, 74, 0.8); /* เพิ่มพื้นหลังให้กับ nav */
+    border-radius: 5px; /* ขอบมน */
+    
+}
+
+nav ul li {
+    margin: 0 15px; /* เว้นระยะซ้ายและขวาของแต่ละรายการ */
+}
+
+nav ul li a {
+    color: white; /* สีตัวอักษรของลิงก์ */
+    text-decoration: none; /* เอาขีดเส้นใต้ */
+    padding: 10px 15px; /* เว้นระยะในลิงก์ */
+    border-radius: 5px; /* ขอบมน */
+    transition: background-color 0.3s; /* การเปลี่ยนสีพื้นหลังเมื่อเอาเมาส์ไปวาง */
+}
+
+nav ul li a:hover {
+    background-color: #777; /* เปลี่ยนสีพื้นหลังเมื่อเอาเมาส์ไปวาง */
+    color: white; /* สีตัวอักษรเมื่อเอาเมาส์ไปวาง */
+}
+
